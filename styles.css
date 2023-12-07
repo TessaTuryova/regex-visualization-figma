@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-size: 14px;
+}
+.container {
+    padding: 8px;
+    margin: 8px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 2rem 1rem
+}
+.card1 {
+    background-color: Violet;
+    border: 2px solid red;
+    margin: 8px;
+}
+.heading {
+
+}
+.num_target {
+    padding: 2px;
+    margin: 2px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem 0.25rem
+}
+.number{
+    color: dodgerblue;
+    font-size: large;
+}
+.target{
+    background-color: yellowgreen;
+    font-size: smaller;
+}
+.box {
+    background-color: aquamarine;
+}
+.viz-box {
+    padding: 1em;
+    margin: 2em;
+    background-color: white;
+    min-width: 40rem;
+    min-height: 20rem;
+}
+.in-box-text {
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 2em;
+    font-size: medium;
+}
