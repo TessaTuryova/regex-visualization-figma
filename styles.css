@@ -6,36 +6,55 @@ body {
 }
 .container {
     padding: 8px;
-    margin: 8px;
+    margin: auto;
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
-    gap: 2rem 1rem
+    gap: 2rem 1rem;
 }
 .card1 {
     background-color: Violet;
     border: 2px solid red;
-    margin: 8px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: start;
 }
 .heading {
-
+    padding: 2px;
+    margin: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.text-heading {
+    padding: 2px;
+    margin: 2px;
+    font-size: medium;
+}
+.text-target {
+    background-color: yellowgreen;
+    padding: 2px;
 }
 .num_target {
     padding: 2px;
     margin: 2px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 0.5rem 0.25rem
+    display: flex;
+    flex-direction: row;
 }
 .number{
     color: dodgerblue;
-    font-size: large;
+    font-size: xxx-large;
+
 }
 .target{
-    background-color: yellowgreen;
     font-size: smaller;
+    padding-top: 1.25em;
+
 }
 .box {
     background-color: aquamarine;
+    margin: auto;
 }
 .viz-box {
     padding: 1em;
