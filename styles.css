@@ -11,7 +11,7 @@ body {
     gap: 2rem 1rem;
 }
 .card1 {
-    background-color: Violet;
+    background-color: white;
     border: 2px solid red;
     margin: auto;
     display: flex;
@@ -32,7 +32,7 @@ body {
     font-size: medium;
 }
 .text-target {
-    background-color: yellowgreen;
+    background-color: #F4FCE3;
     padding: 2px;
 }
 .num_target {
@@ -42,7 +42,7 @@ body {
     flex-direction: row;
 }
 .number{
-    color: dodgerblue;
+    color: #3BC9DB;
     font-size: xxx-large;
 
 }
@@ -52,11 +52,11 @@ body {
 
 }
 .box {
-    background-color: aquamarine;
+    background-color: #E7F5FF;
     margin: auto;
 }
 .box2 {
-    background-color: aquamarine;
+    background-color: #E7F5FF;
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -124,7 +124,8 @@ body {
     justify-content: space-between;
 }
 .open-button {
-    background-color: cornflowerblue;
+    background-color: #a5cef7;
+    opacity: 80%;
     text-align: center;
     cursor: pointer;
     min-width: 49.5%;
@@ -133,7 +134,7 @@ body {
     padding: 0.3em;
 }
 .closed-button {
-    background-color: gray;
+    background-color: #CED4DA;
     text-align: center;
     cursor: pointer;
     min-width: 49.5%;
