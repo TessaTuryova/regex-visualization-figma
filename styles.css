@@ -8,7 +8,6 @@ body {
     padding: 8px;
     margin: auto;
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
     gap: 2rem 1rem;
 }
 .card1 {
@@ -56,6 +55,24 @@ body {
     background-color: aquamarine;
     margin: auto;
 }
+.box2 {
+    background-color: aquamarine;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+.test-part-one {
+    display: flex;
+    flex-direction: column;
+}
+.test-part-one-upper-part{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.erase-button{
+    margin: 1em;
+}
 .code-box {
     padding: 1em;
     margin: 0.5em 2em 2em;
@@ -94,6 +111,12 @@ body {
     padding-top: 2em;
     font-size: medium;
 }
+.in-box-text2 {
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0.5em;
+    font-size: medium;
+}
 .buttons {
     margin: 2em 2em 0.3em 2em;
     display: flex;
@@ -125,3 +148,11 @@ body {
     opacity: 0.6;
     cursor: not-allowed;
 }
+.viz-box-text-left {
+    padding: 1em;
+    margin: 0em 0.5em 2em 2em;
+    background-color: white;
+    min-width: 19.5rem;
+    min-height: 15rem;
+}
+
