@@ -12,7 +12,6 @@ body {
 }
 .card1 {
     background-color: white;
-    border: 2px solid red;
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -70,6 +69,13 @@ body {
     flex-direction: row;
     justify-content: space-between;
 }
+.test-part-one-upper-part2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 1.5em;
+    padding-right: 0.5em;
+}
 .erase-button{
     margin: 1em;
 }
@@ -112,9 +118,14 @@ body {
     font-size: medium;
 }
 .in-box-text2 {
-    padding-left: 1em;
     padding-right: 1em;
     padding-top: 0.5em;
+    font-size: medium;
+}
+.in-box-text3 {
+    padding-right: 1em;
+    padding-top: 0.5em;
+    padding-left: 0.5em;
     font-size: medium;
 }
 .buttons {
@@ -151,7 +162,14 @@ body {
 }
 .viz-box-text-left {
     padding: 1em;
-    margin: 0 0.5em 2em 2em;
+    margin: 0 0.5em 2em 1.5em;
+    background-color: white;
+    min-width: 19.5rem;
+    min-height: 15rem;
+}
+.viz-box-text-right {
+    padding: 1em;
+    margin: 0 1.5em 2em 0.5em;
     background-color: white;
     min-width: 19.5rem;
     min-height: 15rem;
